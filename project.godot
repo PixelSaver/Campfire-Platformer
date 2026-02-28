@@ -11,15 +11,23 @@ config_version=5
 [application]
 
 config/name="Campfire Platformer"
+run/main_scene="uid://bh404nsex1gkx"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=480
+window/size/viewport_width=1728
+window/size/viewport_height=972
 window/stretch/mode="viewport"
 window/stretch/scale_mode="integer"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "green",
+"res://scenes/": "pink"
+}
 
 [input]
 
